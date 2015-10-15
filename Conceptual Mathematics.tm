@@ -518,9 +518,23 @@
   and <math|f*g=r<rprime|'>*s*r*s<rprime|'>=r<rprime|'>*e*s<rprime|'>=r<rprime|'>*s<rprime|'>*r<rprime|'>*s<rprime|'>=1<rsub|A>*1<rsub|A>=1<rsub|A>>.
   \ Therefore <math|f> is an isomorphism.
 
-  <subsection*|Exercise 4>
+  <section*|Quiz>
 
-  Is there an exercise 4?
+  <section*|How to solve the quiz problems>
+
+  <section*|Composition of opposed maps>
+
+  <section*|Summary/quiz on pairs of `opposed' maps>
+
+  <section*|Summary: On the equation <math|p\<circ\>j\<equallim\>1<rsub|A>>>
+
+  <section*|Review of `I-words'>
+
+  <section*|Test 1>
+
+  <section*|Session 10>
+
+  \;
 </body>
 
 <\initial>
@@ -579,6 +593,13 @@
     <associate|auto-5|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-50|<tuple|T|?>>
     <associate|auto-51|<tuple|T|?>>
+    <associate|auto-52|<tuple|T|?>>
+    <associate|auto-53|<tuple|T|?>>
+    <associate|auto-54|<tuple|T|?>>
+    <associate|auto-55|<tuple|T|?>>
+    <associate|auto-56|<tuple|T|?>>
+    <associate|auto-57|<tuple|T|?>>
+    <associate|auto-58|<tuple|T|?>>
     <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
@@ -772,6 +793,22 @@
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Session
       9> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-47><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|Exercise 1
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-48>>
+
+      <with|par-left|<quote|1tab>|Exercise 2
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-49>>
+
+      <with|par-left|<quote|1tab>|Exercise 3
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-50>>
+
+      <with|par-left|<quote|1tab>|Exercise 4
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-51>>
     </associate>
   </collection>
 </auxiliary>
