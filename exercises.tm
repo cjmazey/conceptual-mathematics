@@ -553,6 +553,34 @@
 
   <section*|Summary/quiz on pairs of `opposed' maps>
 
+  <subsection*|1>
+
+  always
+
+  endomorphisms
+
+  <subsection*|2>
+
+  <math|1<rsub|A>>
+
+  endomorphism
+
+  idempotent map
+
+  <math|f*g*f*g=f*g>
+
+  <subsection*|3>
+
+  <math|1<rsub|B>>
+
+  <math|g>
+
+  <subsection*|4>
+
+  could be different from
+
+  could be different from
+
   <section*|Summary: On the equation <math|p\<circ\>j\<equallim\>1<rsub|A>>>
 
   <section*|Review of `I-words'>
@@ -636,6 +664,10 @@
     <associate|auto-60|<tuple|T|?>>
     <associate|auto-61|<tuple|T|?>>
     <associate|auto-62|<tuple|T|?>>
+    <associate|auto-63|<tuple|T|?>>
+    <associate|auto-64|<tuple|T|?>>
+    <associate|auto-65|<tuple|T|?>>
+    <associate|auto-66|<tuple|T|?>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
