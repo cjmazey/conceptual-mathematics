@@ -520,7 +520,32 @@
 
   <section*|Quiz>
 
+  <subsection*|1>
+
+  Let <math|A=<around*|{|a|}>>, <math|B=<around*|{|b<rsub|1>,b<rsub|2>|}>>,
+  and <math|f\<of\>a\<mapsto\>b<rsub|1>>. \ A retraction for <math|f> is
+  <math|r\<of\>b<rsub|1>\<mapsto\>a>. \ There is no section for <math|f>,
+  since <math|B> is ``greather than'' <math|A>.
+
+  <subsection*|2>
+
+  <math|p\<circ\>q> is indeed idempotent, as
+  <math|p\<circ\>q\<circ\>p\<circ\>q=p\<circ\>q>. \ <math|q\<circ\>p> is also
+  idempotent, as <math|q\<circ\>p\<circ\>q\<circ\>p=q\<circ\>p>.
+
+  <subsection*|2*>
+
+  Just let <math|q<rprime|'>=q>, the result follows immediately from the
+  above.
+
+  <subsection*|1*>
+
+  Let <math|A=\<bbb-Z\>>, <math|B=\<bbb-Q\>>, and
+  <math|f<around*|(|z|)>=<frac|z|1>>.
+
   <section*|How to solve the quiz problems>
+
+  (nothing to see here)
 
   <section*|Composition of opposed maps>
 
@@ -546,6 +571,8 @@
 
 <\references>
   <\collection>
+    <associate|Quiz 2|<tuple|T|?>>
+    <associate|Quiz2|<tuple|T|?>>
     <associate|auto-1|<tuple|?|1>>
     <associate|auto-10|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-11|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
@@ -600,7 +627,11 @@
     <associate|auto-56|<tuple|T|?>>
     <associate|auto-57|<tuple|T|?>>
     <associate|auto-58|<tuple|T|?>>
+    <associate|auto-59|<tuple|T|?>>
     <associate|auto-6|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-60|<tuple|T|?>>
+    <associate|auto-61|<tuple|T|?>>
+    <associate|auto-62|<tuple|T|?>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
