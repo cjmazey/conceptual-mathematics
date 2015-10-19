@@ -583,9 +583,50 @@
 
   <section*|Summary: On the equation <math|p\<circ\>j\<equallim\>1<rsub|A>>>
 
+  (nothing to do)
+
   <section*|Review of `I-words'>
 
+  (nothing to write)
+
   <section*|Test 1>
+
+  <subsection*|1>
+
+  <\enumerate-alpha>
+    <item><math|f \| Mara \<mapsto\>Aurelio \| Aurelio \<mapsto\>Andrea \|
+    Andrea \<mapsto\> Mara>
+
+    <item><math|e \| Mara \<mapsto\> Aurelio \| Aurelio \<mapsto\> Aurelio \|
+    Andrea \<mapsto\> Andrea>
+
+    <item><math|B=<around*|{|Foo,Bar|}>>,\ 
+
+    <math|s \| Foo \<mapsto\> Aurelio \| Bar \<mapsto\> Andrea>,
+
+    <math|r \| Mara \<mapsto\> Foo \| Aurelio \<mapsto\> Foo \| Andrea
+    \<mapsto\> Bar>
+  </enumerate-alpha>
+
+  TODO: Insert figures.
+
+  <subsection*|2>
+
+  <math|g<around*|(|x|)>=<frac|x+7|4>>
+
+  <\enumerate-alpha>
+    <item>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|g\<circ\>f|)><around*|(|x|)>>|<cell|=>|<cell|g<around*|(|f<around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|g<around*|(|4*x-7|)>>>|<row|<cell|>|<cell|=>|<cell|<frac|<around*|(|4*x-7|)>+7|4>>>|<row|<cell|>|<cell|=>|<cell|x>>>>
+    </eqnarray*>
+
+    <item>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|<around*|(|f\<circ\>g|)><around*|(|x|)>>|<cell|=>|<cell|f<around*|(|g<around*|(|x|)>|)>>>|<row|<cell|>|<cell|=>|<cell|f<around*|(|<frac|x+7|4>|)>>>|<row|<cell|>|<cell|=>|<cell|4*<around*|(|<frac|x+7|4>|)>-7>>|<row|<cell|>|<cell|=>|<cell|x>>>>
+    </eqnarray*>
+  </enumerate-alpha>
 
   <section*|Session 10>
 
@@ -668,6 +709,8 @@
     <associate|auto-64|<tuple|T|?>>
     <associate|auto-65|<tuple|T|?>>
     <associate|auto-66|<tuple|T|?>>
+    <associate|auto-67|<tuple|c|?>>
+    <associate|auto-68|<tuple|b|?>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
@@ -901,22 +944,34 @@
       on pairs of `opposed' maps> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-58><vspace|0.5fn>
 
+      <with|par-left|<quote|1tab>|1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-59>>
+
+      <with|par-left|<quote|1tab>|2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-60>>
+
+      <with|par-left|<quote|1tab>|3 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-61>>
+
+      <with|par-left|<quote|1tab>|4 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-62>>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Summary:
       On the equation <with|mode|<quote|math>|p\<circ\>j\<equallim\>1<rsub|A>>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-59><vspace|0.5fn>
+      <no-break><pageref|auto-63><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Review
       of `I-words'> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-60><vspace|0.5fn>
+      <no-break><pageref|auto-64><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Test
       1> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-61><vspace|0.5fn>
+      <no-break><pageref|auto-65><vspace|0.5fn>
 
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Session
       10> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-62><vspace|0.5fn>
+      <no-break><pageref|auto-66><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
