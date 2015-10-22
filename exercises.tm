@@ -630,7 +630,39 @@
 
   <section*|Session 10>
 
-  \;
+  <subsection*|Exercise 1>
+
+  The retraction theorem states that there is no continuous map which is a
+  retraction for <math|j>.
+
+  Suppose that there are no points <math|x> for which
+  <math|f<around*|(|x|)>=g<around*|(|x|)>>. \ We construct a continuous
+  retraction for <math|j>: draw the arrow with tail <math|f<around*|(|x|)>>
+  and head <math|g<around*|(|x|)>>, and let <math|r<around*|(|x|)>> be the
+  point on the rim it ``points'' to. \ (There is always such an arrow because
+  of the assumption on <math|f> and <math|g>.) \ Note that
+  <math|r<around*|(|x|)>=x> for points on the rim, since the pointed-to point
+  is <math|g<around*|(|x|)>> itself, and <math|g> acts like the identity on
+  the rim, as per <math|g\<circ\>j=j>. \ Thus <math|r\<circ\>j=1<rsub|C>>.
+
+  By the way, I think this <math|r> is continuous because it can be seen as a
+  stretching and rotation in terms of <math|f<around*|(|x|)>> and
+  <math|g<around*|(|x|)>><emdash>and compostion respects continuity.
+
+  The contrapositive of what we've proven, together with the retraction
+  theorem, give the desired result, that there must be a point <math|x> such
+  that <math|f<around*|(|x|)>=g<around*|(|x|)>>.
+
+  <subsection*|Exercise 2>
+
+  <\proposition*>
+    <math|\<forall\> <around*|(|g\<of\>A\<rightarrow\>A|)> \<exists\>
+    <around*|(|a\<of\>T\<rightarrow\>A|)> g*a=a>
+
+    <\proof>
+      \;
+    </proof>
+  </proposition*>
 </body>
 
 <\initial>
@@ -711,7 +743,9 @@
     <associate|auto-66|<tuple|T|?>>
     <associate|auto-67|<tuple|c|?>>
     <associate|auto-68|<tuple|b|?>>
+    <associate|auto-69|<tuple|b|?>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
+    <associate|auto-70|<tuple|b|?>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
   </collection>
@@ -969,9 +1003,23 @@
       1> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-65><vspace|0.5fn>
 
+      <with|par-left|<quote|1tab>|1 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-66>>
+
+      <with|par-left|<quote|1tab>|2 <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-67>>
+
       <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|Session
       10> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-66><vspace|0.5fn>
+      <no-break><pageref|auto-68><vspace|0.5fn>
+
+      <with|par-left|<quote|1tab>|Exercise 1
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-69>>
+
+      <with|par-left|<quote|1tab>|Exercise 2
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-70>>
     </associate>
   </collection>
 </auxiliary>
