@@ -235,7 +235,9 @@
     </proof>
   </proposition*>
 
-  <subsection*|Exercise 9>
+  <\subsection*>
+    Exercise 9
+  </subsection*>
 
   <\proposition*>
     Suppose <math|r> is a retraction of <math|f> (equivalently <math|f> is a
@@ -525,7 +527,7 @@
   Let <math|A=<around*|{|a|}>>, <math|B=<around*|{|b<rsub|1>,b<rsub|2>|}>>,
   and <math|f\<of\>a\<mapsto\>b<rsub|1>>. \ A retraction for <math|f> is
   <math|r\<of\>b<rsub|1>\<mapsto\>a>. \ There is no section for <math|f>,
-  since <math|B> is ``greather than'' <math|A>.
+  since <math|B> is ``greater than'' <math|A>.
 
   <subsection*|2>
 
@@ -647,7 +649,7 @@
 
   By the way, I think this <math|r> is continuous because it can be seen as a
   stretching and rotation in terms of <math|f<around*|(|x|)>> and
-  <math|g<around*|(|x|)>><emdash>and compostion respects continuity.
+  <math|g<around*|(|x|)>><emdash>and composition respects continuity.
 
   The contrapositive of what we've proven, together with the retraction
   theorem, give the desired result, that there must be a point <math|x> such
@@ -660,9 +662,30 @@
     <around*|(|a\<of\>T\<rightarrow\>A|)> g*a=a>
 
     <\proof>
-      \;
+      Take <math|g\<of\>A\<rightarrow\>A>. \ Let
+      <math|f\<of\>X\<rightarrow\>X=s\<circ\>g\<circ\>r>, and consider
+      <math|a\<of\>T\<rightarrow\>A=r\<circ\>x>. \ We show that
+      <math|g\<circ\>a=a>:
+
+      <\eqnarray*>
+        <tformat|<table|<row|<cell|g\<circ\>a>|<cell|=>|<cell|g\<circ\>r\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|1<rsub|A>\<circ\>g\<circ\>r\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|<around*|(|r\<circ\>s|)>\<circ\>g\<circ\>r\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|r\<circ\><around*|(|s\<circ\>g\<circ\>r|)>\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|r\<circ\>f\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|r\<circ\>x>>|<row|<cell|>|<cell|=>|<cell|a>>>>
+      </eqnarray*>
     </proof>
   </proposition*>
+
+  <subsection*|Exercise 3>
+
+  In each case we are assuming that <math|A> is a `retract' (i.e. that
+  <math|j \<of\>A\<rightarrow\>X> has a retract <math|r>) and that every
+  endomap of <math|X> has fixed points. \ From this we conclude every endomap
+  of <math|A> has fixed points. \ The contrapositive is that if <math|A>
+  hasn't fixed points, there is no retract <math|r>. \ But there are endomaps
+  of <math|A> without fixed points, by construction. \ We therefore conclude,
+  in each case, the former original assumption, as the later always holds.
+
+  <subsection*|Exercise 4>
+
+  \;
 </body>
 
 <\initial>
@@ -746,6 +769,8 @@
     <associate|auto-69|<tuple|b|?>>
     <associate|auto-7|<tuple|<with|mode|<quote|math>|\<bullet\>>|1>>
     <associate|auto-70|<tuple|b|?>>
+    <associate|auto-71|<tuple|b|?>>
+    <associate|auto-72|<tuple|b|?>>
     <associate|auto-8|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
     <associate|auto-9|<tuple|<with|mode|<quote|math>|\<bullet\>>|2>>
   </collection>
